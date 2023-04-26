@@ -1,0 +1,286 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+
+.nav-color {
+  background-color: #303030;
+  color: white;
+  font-size: small;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.footer-text {
+  color: #858585;
+}
+
+.footer-color {
+  color: #919191;
+  background-color: #222222;
+  padding-bottom: 1px;
+}
+
+.homeIcon,
+.homeIconColor {
+  font-family: "Oleo Script", cursive;
+  color: white;
+  font-size: 47px;
+  text-decoration: none;
+}
+
+.homeIconColor {
+  color: #7d7068;
+}
+
+a {
+  margin-inline: 12px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #79726c;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -10px;
+  left: 0;
+  background-color: #79726c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-copyright {
+  background: #1c1c1c;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.bg,
+.bg-blog {
+  background-image: url(img/bg-principal.png);
+  background-color: #cccccc;
+}
+
+.bg-blog {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+  color: #919191;
+}
+
+.contact-info {
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: bold !important;
+  color: #78706a;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer-titles,
+.text-font-primary,
+.text-font-secondary {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: bold !important;
+}
+
+.input-border-style {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 4px solid black;
+  background-color: #f6f6f6;
+  /*margin: 0 20px;*/
+  width: 60%;
+}
+
+.input-border-style:focus {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  outline: 0;
+  background: #f6f6f6;
+}
+
+.submit-button {
+  padding: 8px 55px;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-block: 18px;
+}
+
+hr.divider {
+  border-top: 6px solid #786e65;
+  width: 6%;
+  margin: 2.5% auto;
+}
+
+hr.divider-contact {
+  border-top: 1px solid black;
+  width: 62%;
+  margin: 10% auto 1% auto;
+}
+
+.text-font-primary {
+  font-size: 26px;
+  color: white;
+}
+
+.text-font-secondary {
+  font-size: 65px;
+  color: white;
+}
+
+.text-font-color {
+  font-size: 65px;
+  color: #72685f;
+}
+
+.header-texts {
+  padding-block: 11%;
+}
+
+.download-button {
+  background-color: #272320;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 18px 80px;
+  margin-top: 25px;
+}
+
+.download-icon {
+  width: 15px;
+  margin-left: 15px;
+}
+
+.footer-icons {
+  font-weight: bold;
+  color: #858585;
+  border: none;
+  padding: 0 5px;
+  width: 22px;
+  /*margin-top: 25px;*/
+}
+
+.span-styles {
+  color: #919191;
+  font-family: "Raleway", sans-serif;
+}
+
+.service-title,
+.services-texts,
+.services-titles,
+.blog-title {
+  color: #786e65;
+}
+
+.service-title {
+  color: #786e65;
+  font-size: 24px;
+}
+
+.services-texts {
+  color: #888888;
+}
+
+.services-titles {
+  font-weight: bold;
+}
+
+.new-row-margin {
+  margin: 15px 0;
+}
+
+.width-carrousel {
+  width: 470px;
+  height: 266px;
+  margin: 0 0 0 auto;
+}
+
+.blog-title {
+  font-size: 40px;
+}
+
+.our-blog {
+  text-align: center;
+  margin: 6% 0 10% 0;
+}
+
+.raleway-font,
+.blog-texts,
+.post-titles {
+  font-family: "Raleway", sans-serif;
+}
+
+.blog-texts {
+  font-weight: bold;
+}
+
+.post-dates-text {
+  font-size: 16px;
+  color: #b1b1b1;
+}
+
+.post-titles {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.left-input {
+  width: 50%;
+  text-align: end;
+}
+
+.right-input {
+  width: 50%;
+  text-align: start;
+}
+
+.middle-input {
+  width: 100%;
+  margin: auto;
+}
+
+.labels {
+  width: 60%;
+  text-align: start;
+  margin: 15px auto;
+}
+
+.recent-posts-dates {
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.recent-posts-texts {
+  color: #929292;
+}
+
+.arroba {
+  font-size: 14px;
+  color: #716861;
+}
+
+hr.footer-divider {
+  width: 60%;
+}
+
